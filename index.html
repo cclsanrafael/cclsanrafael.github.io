@@ -6,29 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Normalize css -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/cartel.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand">CCL</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="#">Cursos</a>
-                    <a class="nav-link" href="#">Info</a>
-                    <a class="nav-link" href="#">Contactos</a>
-                </div>
-            </div>
+    <nav>
+        <div class="title">
+            <span>CLL</span>
+            <a id="collapse-button">
+                <i class="fa-solid fa-ellipsis"></i>
+            </a>
         </div>
+        <ul class="navbar">
+            <li class="nav-item"><a href="" class="nav-link">Cursos</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Info</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Contactos</a></li>
+        </ul>
     </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
+
+    <section class="cartel">
+        <span class="logo"><i class="fa-solid fa-terminal"></i></span>
+        <h2><i class="fa-solid fa-terminal logo"></i> Cursos de Capacitación Laboral</h2><br>
+        <span>
+            ¡Todo el mundo necesita un tutor, nosotros queremos ser los tuyos!
+        </span>
+    </section>
+
+    <script src="https://kit.fontawesome.com/a5c1628c0a.js" crossorigin="anonymous"></script>
+    <script src="js/navbar.js"></script>
 </body>
 
 </html>

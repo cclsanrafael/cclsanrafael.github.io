@@ -1,0 +1,80 @@
+nav {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15vw;
+}
+
+nav .title {
+    float: left;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, .8);
+}
+
+#collapse-button {
+    display: none;
+}
+
+#collapse-button:hover {
+    cursor: pointer;
+}
+
+nav .navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    transition: all 0.4s ease;
+}
+
+nav .navbar .nav-item {
+    display: inline-block;
+    padding: 1.5rem 2.5rem;
+    transition: all 0.5s ease 0s;
+}
+
+nav .navbar .nav-link:hover {
+    color: rgb(12, 195, 195);
+}
+
+nav .navbar .nav-link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, .8);
+}
+
+@media screen and (min-width: 621px){
+    nav .navbar {
+        display: initial;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    nav {
+        padding: 0 5vw;
+    }
+}
+
+@media screen and (max-width: 620px){
+    nav {
+        display: inline-block;
+        padding: 0;
+    }
+
+    nav .title {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        padding: 1.5rem 2.5rem;
+    }
+
+    #collapse-button {
+        display: inline-block;
+    }
+
+    nav .navbar .nav-item {
+        width: 100vw;
+    }
+}
