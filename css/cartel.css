@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.9);
     color: rgba(255, 255, 255, .8);
@@ -36,7 +37,7 @@
 
 @media screen and (max-width: 640px){
     .cartel h2 {
-        font-size: 5vw;
+        font-size: 10vw;
     }
 
     .cartel h2 .logo {
@@ -45,11 +46,12 @@
 
     .cartel span.logo {
         display: inline-block;
-        font-size: 8vw;
+        font-size: 15vw;
         margin-bottom: 2vh;
     }
 
     .cartel span {
+        font-size: 4vw;
         padding: 0 1em;
     }
 }
