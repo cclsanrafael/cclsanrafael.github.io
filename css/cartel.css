@@ -51,5 +51,6 @@
 
     .cartel span {
         font-size: 2.5vw;
+        padding: 0 1em;
     }
 }
