@@ -46,32 +46,3 @@
         font-size: 2vw;
     }
 }
-
-@media screen and (max-width: 640px){
-    .cartel h2#title {
-        font-size: 10vw;
-    }
-
-    .cartel span.logo {
-        display: inline-block;
-        font-size: 15vw;
-        margin-bottom: 2vh;
-    }
-
-    .cartel span {
-        font-size: 3vw;
-        padding: 0 1em;
-    }
-
-    @keyframes opacity-border {
-        from {
-            border-right: 6px solid rgba(255, 255, 255, 1);
-            border-left: 6px solid rgba(255, 255, 255, 1);
-        }
-    
-        to {
-            border-right: 6px solid rgba(255, 255, 255, 0);
-            border-left: 6px solid rgba(255, 255, 255, 0);
-        }
-    }
-}

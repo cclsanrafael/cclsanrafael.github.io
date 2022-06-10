@@ -1,0 +1,78 @@
+@media screen and (max-width: 620px){
+    nav {
+        display: inline-block;
+        padding: 0;
+    }
+
+    nav .title {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        padding: 1.5rem 2.5rem;
+    }
+
+    #collapse-button {
+        display: inline-block;
+    }
+
+    nav .navbar .nav-item {
+        width: 100vw;
+    }
+
+    nav .navbar {
+        display: initial;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .cartel {
+        width: calc(100vw);
+    }
+
+    .cartel h2#title {
+        font-size: 10vw;
+    }
+
+    .cartel span.logo {
+        display: inline-block;
+        font-size: 15vw;
+        margin-bottom: 2vh;
+    }
+
+    .cartel span {
+        font-size: 3vw;
+        padding: 0 1em;
+    }
+
+    .card {
+        width: calc(95%);
+        margin: 3vh calc(2.5%);
+    }
+
+    .card svg, .card i {
+        font-size: 20vw;
+    }
+
+    .card .card-body a {
+        width: 90%;
+        margin: 0 calc(5%);
+    }
+
+    @keyframes opacity-border {
+        from {
+            border-right: 6px solid rgba(255, 255, 255, 1);
+            border-left: 6px solid rgba(255, 255, 255, 1);
+        }
+    
+        to {
+            border-right: 6px solid rgba(255, 255, 255, 0);
+            border-left: 6px solid rgba(255, 255, 255, 0);
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    nav {
+        padding: 0 5vw;
+    }
+}

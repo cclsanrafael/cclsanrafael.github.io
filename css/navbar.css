@@ -50,37 +50,3 @@ nav .navbar .nav-link {
     font-size: 1rem;
     color: rgba(255, 255, 255, .8);
 }
-
-@media screen and (min-width: 621px){
-    nav .navbar {
-        display: initial;
-    }
-}
-
-@media screen and (max-width: 1050px) {
-    nav {
-        padding: 0 5vw;
-    }
-}
-
-@media screen and (max-width: 620px){
-    nav {
-        display: inline-block;
-        padding: 0;
-    }
-
-    nav .title {
-        display: flex;
-        justify-content: space-between;
-        width: 100vw;
-        padding: 1.5rem 2.5rem;
-    }
-
-    #collapse-button {
-        display: inline-block;
-    }
-
-    nav .navbar .nav-item {
-        width: 100vw;
-    }
-}
