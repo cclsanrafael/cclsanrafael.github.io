@@ -1,0 +1,74 @@
+.cards-group {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 8vh 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    width: calc(15%);
+    margin: 0 calc(1.5%);
+    font-family: 'Times New Roman', Times, serif;
+    border: 0 solid transparent;
+    border-radius: 10px;
+}
+
+.card .card-header {
+    display: flex;
+    width: 100%;
+    height: 22vh;
+    background-color: #efefef;
+    padding: 5vh;
+    justify-content: center;
+    align-items: center;
+    border: 0 solid transparent;
+    border-radius: 10px 10px 0 0;
+}
+
+.card svg, .card i {
+    font-size: 7vw;
+    color: #fff;
+}
+
+.card .card-body {
+    width: 100%;
+    *height: 15vh;
+    background-color: #efefef;
+    padding: 2vh 1vw 2vh 1vw;
+}
+
+.card .card-body p {
+    padding: 0 2vw 1vh 2vw;
+    text-align: center;
+}
+
+.card .card-body a {
+    display: block;
+    width: 100%;
+    background-color: rgb(12, 195, 195);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 1vh 2vw 1vh 2vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+#php .card-header {
+    background-color: #787cb4;
+}
+
+#javascript .card-header {
+    background-color: #f7e018;
+}
+
+#python .card-header {
+    background-color: #356e9b;
+}
+
+#linux .card-header {
+    background-color: rgba(0, 0, 0,.9);
+}

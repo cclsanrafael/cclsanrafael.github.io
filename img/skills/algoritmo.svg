@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+<path style="fill:#747c55; stroke:none;" d="M0 0L0 4L22 4C19.7482 -2.78449 5.97565 0 0 0z"/>
+<path style="fill:#77919a; stroke:none;" d="M21 0L22 1L21 0z"/>
+<path style="fill:#f5f8f8; stroke:none;" d="M22 0L22 6L26 6L26 10L21 10C21.7263 14.1957 24.0606 15.0417 28 16L28 18L16.8295 25.5069L0 24L0 32L18 32L18 28L26 28L25 31L32 32L32 26C24.2732 25.7482 24.7947 22.0072 32 21L32 0L22 0z"/>
+<path style="fill:#77919a; stroke:none;" d="M0.666667 4.33333L1.33333 4.66667L0.666667 4.33333z"/>
+<path style="fill:#6bb2e2; stroke:none;" d="M0 24L22 24L15 17C19.0144 15.5501 20.6524 14.3616 21 10L26 10L26 6C20.5758 4.79101 5.30704 0.453186 1.02778 5.74228C-1.90623 9.36867 0 19.5079 0 24z"/>
+<path style="fill:#eab529; stroke:none;" d="M2.66667 7.33333L3.33333 7.66667L2.66667 7.33333z"/>
+<path style="fill:#f5f8f8; stroke:none;" d="M5 7L5 8L8 8L5 7z"/>
+<path style="fill:#eab529; stroke:none;" d="M15 7L16 8L15 7M13 9L14 10L13 9M5 12L6 13L5 12M16 16C18.9687 21.2088 23.2398 20.6239 28 18L28 16L16 16M7 16L7 17L13 18L13 16L7 16z"/>
+<path style="fill:#f5f8f8; stroke:none;" d="M15 17L16 18L15 17z"/>
+<path style="fill:#eab529; stroke:none;" d="M2.66667 19.3333L3.33333 19.6667L2.66667 19.3333z"/>
+<path style="fill:#f5f8f8; stroke:none;" d="M6 19L7 20L6 19z"/>
+<path style="fill:#eab529; stroke:none;" d="M12 19L13 20L12 19z"/>
+<path style="fill:#77919a; stroke:none;" d="M25 21L27 23L25 21z"/>
+<path style="fill:#6bb2e2; stroke:none;" d="M26 21L27 23L24 22C25.3429 26.046 28.0654 25.9534 32 26L32 21L26 21z"/>
+<path style="fill:#77919a; stroke:none;" d="M18 28L18 32L19 32L21 28L18 28z"/>
+<path style="fill:#747c55; stroke:none;" d="M19 28L20 29L19 28z"/>
+<path style="fill:#eab529; stroke:none;" d="M19 31C22.7257 31.7859 24.5147 31.6852 26 28L19 31z"/>
+<path style="fill:#77919a; stroke:none;" d="M24 28L25 29L24 28z"/>
+<path style="fill:#747c55; stroke:none;" d="M19 31L20 32L19 31z"/>
+<path style="fill:#77919a; stroke:none;" d="M20 31L21 32L20 31M25 31L26 32L25 31z"/>
+</svg>
