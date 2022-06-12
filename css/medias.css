@@ -49,7 +49,7 @@
     }
     
     .card svg, .card i {
-        font-size: 7vh;
+        font-size: 15vh;
     }
     
     @keyframes opacity-border {
