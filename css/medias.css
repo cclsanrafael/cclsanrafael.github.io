@@ -48,6 +48,10 @@
         font-size: 2.5vh;
     }
     
+    .card svg, .card i {
+        font-size: 7vh;
+    }
+    
     @keyframes opacity-border {
         from {
             border-right: 6px solid rgba(255, 255, 255, 1);
