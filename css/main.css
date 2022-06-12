@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     position: relative;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, p {
@@ -13,10 +14,22 @@ h1, h2, h3, h4, p {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 .cover-content {
     background-color: rgba(0, 0, 0, 1);
     height: calc(100vh - 3.5rem);
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 1vh;
 }

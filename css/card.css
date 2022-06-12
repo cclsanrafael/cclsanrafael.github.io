@@ -9,8 +9,9 @@
 
 .card {
     position: relative;
-    width: calc(15%);
-    margin: 0 calc(1.5%);
+    width: 300px;
+    background-color: #356e9b;
+    margin: calc(2vh) calc(2vw);
     font-family: 'Times New Roman', Times, serif;
     border: 0 solid transparent;
     border-radius: 10px;
@@ -19,7 +20,7 @@
 .card .card-header {
     display: flex;
     width: 100%;
-    height: 22vh;
+    height: 250px;
     background-color: #efefef;
     padding: 5vh;
     justify-content: center;
@@ -35,13 +36,15 @@
 
 .card .card-body {
     width: 100%;
-    *height: 15vh;
     background-color: #efefef;
     padding: 2vh 1vw 2vh 1vw;
 }
 
 .card .card-body p {
-    padding: 0 2vw 1vh 2vw;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.5vw;
+    padding: 0 2vw 3vh 2vw;
     text-align: center;
 }
 
@@ -55,6 +58,11 @@
     padding: 1vh 2vw 1vh 2vw;
     text-align: center;
     text-decoration: none;
+    animation: ease .5s;
+}
+
+.card .card-body a:hover {
+    background-color: rgb(8, 137, 137);
 }
 
 #php .card-header {
