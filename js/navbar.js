@@ -5,7 +5,7 @@ collapsebutton.addEventListener("click", (e) => {
     navbaritems.classList.toggle('hidden');
 });
 
-window.scrollto({
+window.scrollTo({
     top:0,
     behavior: 'smooth'
 });
