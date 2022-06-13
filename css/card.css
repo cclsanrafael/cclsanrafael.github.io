@@ -204,3 +204,27 @@
 #laptops .card-header:hover svg {
     color: #f5c341;
 }
+
+#html .card-header {
+    background-color: #e44d26;
+}
+
+#html .card-header:hover {
+    background-color: #fff;
+}
+
+#html .card-header:hover svg {
+    color: #e44d26;
+}
+
+#css .card-header {
+    background-color: #2091eb;
+}
+
+#css .card-header:hover {
+    background-color: #fff;
+}
+
+#css .card-header:hover svg {
+    color: #2091eb;
+}
