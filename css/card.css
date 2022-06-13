@@ -68,50 +68,139 @@
     display: none;
 }
 
-.cards-group .button {
-    background-color: red;
+.card .card-header:hover {
+    border:#efefef solid 4px;
+
 }
 
 #php .card-header {
     background-color: #787cb4;
 }
 
+#php .card-header:hover {
+    background-color: #fff;
+}
+
+#php .card-header:hover svg {
+    color: #787cb4;
+}
+
 #javascript .card-header {
     background-color: #f7e018;
+}
+
+#javascript .card-header:hover {
+    background-color: #fff;
+}
+
+#javascript .card-header:hover svg {
+    color: #f7e018;
 }
 
 #python .card-header {
     background-color: #356e9b;
 }
 
+#python .card-header:hover {
+    background-color: #fff;
+}
+
+#python .card-header:hover svg {
+    color: #356e9b;
+}
+
 #linux .card-header {
     background-color: rgba(0, 0, 0,.9);
+}
+
+#linux .card-header:hover {
+    background-color: #fff;
+}
+
+#linux .card-header:hover svg {
+    color: rgba(0, 0, 0,.9);
 }
 
 #node .card-header {
     background-color: #8ac400;
 }
 
+#node .card-header:hover {
+    background-color: #fff;
+}
+
+#node .card-header:hover svg {
+    color: #8ac400;
+}
+
 #algoritmos .card-header {
     background-color: rgb(59, 49, 125);
+}
+
+#algoritmos .card-header:hover {
+    background-color: #fff;
+}
+
+#algoritmos .card-header:hover svg {
+    color: rgb(59, 49, 125);
 }
 
 #automatizacion .card-header {
     background-color: rgb(91, 89, 89);
 }
 
+#automatizacion .card-header:hover {
+    background-color: #fff;
+}
+
+#automatizacion .card-header:hover svg {
+    color: rgb(91, 89, 89);
+}
+
 #github .card-header {
     background-color: #f05134;
+}
+
+#github .card-header:hover {
+    background-color: #fff;
+}
+
+#github .card-header:hover svg {
+    color: #f05134;
 }
 
 #api .card-header {
     background-color: #025093;
 }
 
+#api .card-header:hover {
+    background-color: #fff;
+}
+
+#api .card-header:hover svg {
+    color: #025093;
+}
+
 #celulares .card-header {
     background-color: #507568;
 }
 
+#celulares .card-header:hover {
+    background-color: #fff;
+}
+
+#celulares .card-header:hover svg {
+    color: #507568;
+}
+
 #laptops .card-header {
     background-color: #f5c341;
+}
+
+#laptops .card-header:hover {
+    background-color: #fff;
+}
+
+#laptops .card-header:hover svg {
+    color: #f5c341;
 }

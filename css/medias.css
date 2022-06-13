@@ -56,6 +56,16 @@
     .card svg, .card i {
         font-size: 15vh;
     }
+
+    footer {
+        display: block;
+        text-align: center;
+        font-size: 2vh;
+    }
+
+    footer p a{
+        padding: 1vh;
+    }
     
     @keyframes opacity-border {
         from {

@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a.white {
+    color: #fff;
+}
+
 body {
     position: relative;
     overflow-x: hidden;
