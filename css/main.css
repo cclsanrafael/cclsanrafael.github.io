@@ -60,3 +60,9 @@ footer {
     padding: 1vh 3vh;
     *margin-bottom: 5vh;
 }
+
+.content-form {
+    margin-top: 1.5vh;
+    display: flex;
+    justify-content: center;
+}
