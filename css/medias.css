@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 700px){
     .cartel {
-        width: 65vh;
+        height: 65vh;
     }
     
     nav {
