@@ -17,6 +17,10 @@
         font-size: 3vw;
         padding: 0 1em;
     }
+
+    .card {
+        width: 400px;
+    }
 }
 
 @media screen and (max-width: 700px){
