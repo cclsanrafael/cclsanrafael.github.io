@@ -240,3 +240,15 @@
 #ciberseguridad .card-header:hover svg {
     color: #61c7ff;
 }
+
+#excel .card-header {
+    background-color:#006b36;
+}
+
+#excel .card-header:hover {
+    background-color: #fff;
+}
+
+#excel .card-header:hover svg {
+    color: #006b36;
+}
