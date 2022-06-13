@@ -229,14 +229,14 @@
     color: #2091eb;
 }
 
-#ciberseguridad {
+#ciberseguridad .card-header {
     background-color: #61c7ff;
 }
 
-#ciberseguridad:hover {
+#ciberseguridad:hover .card-header {
     background-color: #fff;
 }
 
-#ciberseguridad:hover svg {
+#ciberseguridad .card-header:hover svg {
     color: #61c7ff;
 }
