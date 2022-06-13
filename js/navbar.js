@@ -4,3 +4,5 @@ const navbaritems = document.querySelector(".navbar");
 collapsebutton.addEventListener("click", (e) => {
     navbaritems.classList.toggle('hidden');
 });
+
+window.scroll(0,0)
