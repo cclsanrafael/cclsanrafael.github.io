@@ -1,7 +1,7 @@
 .cards-group {
     max-width: 90vw;
     margin: 0 auto;
-    padding: 8vh 0;
+    padding: 0 0 5vh 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -10,7 +10,6 @@
 .card {
     position: relative;
     width: 300px;
-    background-color: #356e9b;
     margin: calc(2vh) calc(2vw);
     font-family: 'Times New Roman', Times, serif;
     border: 0 solid transparent;
@@ -44,7 +43,7 @@
     font-family: monospace;
     font-weight: bold;
     font-size: 1.5vw;
-    padding: 0 2vw 3vh 2vw;
+    padding: 0 1vw 3vh 1vw;
     text-align: center;
 }
 
@@ -65,6 +64,14 @@
     background-color: rgb(8, 137, 137);
 }
 
+.cardhidden {
+    display: none;
+}
+
+.cards-group .button {
+    background-color: red;
+}
+
 #php .card-header {
     background-color: #787cb4;
 }
@@ -79,4 +86,32 @@
 
 #linux .card-header {
     background-color: rgba(0, 0, 0,.9);
+}
+
+#node .card-header {
+    background-color: #8ac400;
+}
+
+#algoritmos .card-header {
+    background-color: rgb(59, 49, 125);
+}
+
+#automatizacion .card-header {
+    background-color: rgb(91, 89, 89);
+}
+
+#github .card-header {
+    background-color: #f05134;
+}
+
+#api .card-header {
+    background-color: #025093;
+}
+
+#celulares .card-header {
+    background-color: #507568;
+}
+
+#laptops .card-header {
+    background-color: #f5c341;
 }

@@ -1,4 +1,25 @@
-@media screen and (max-width: 620px){
+@media screen and (max-width: 650px){
+    .cartel {
+        width: calc(100vw);
+    }
+
+    .cartel h2#title {
+        font-size: 10vw;
+    }
+
+    .cartel span.logo {
+        display: inline-block;
+        font-size: 15vw;
+        margin-bottom: 2vh;
+    }
+
+    .cartel span {
+        font-size: 3vw;
+        padding: 0 1em;
+    }
+}
+
+@media screen and (max-width: 700px){
     nav {
         display: inline-block;
         padding: 0;
@@ -22,30 +43,14 @@
     nav .navbar {
         display: initial;
     }
-}
-
-@media screen and (max-width: 640px){
-    .cartel {
-        width: calc(100vw);
-    }
-
-    .cartel h2#title {
-        font-size: 10vw;
-    }
-
-    .cartel span.logo {
-        display: inline-block;
-        font-size: 15vw;
-        margin-bottom: 2vh;
-    }
-
-    .cartel span {
-        font-size: 3vw;
-        padding: 0 1em;
-    }
 
     .card .card-body p {
         font-size: 2.5vh;
+    }
+
+    .card .card-body a {
+        width: 80%;
+        margin: 0 auto;
     }
     
     .card svg, .card i {
@@ -55,18 +60,22 @@
     @keyframes opacity-border {
         from {
             border-right: 6px solid rgba(255, 255, 255, 1);
-            border-left: 6px solid rgba(255, 255, 255, 1);
         }
     
         to {
             border-right: 6px solid rgba(255, 255, 255, 0);
-            border-left: 6px solid rgba(255, 255, 255, 0);
         }
     }
 }
 
 @media screen and (max-width: 1050px) {
-    nav {
-        padding: 0 5vw;
+    .separate .title {
+        font-size: 4vh;
+    }
+    .card .card-body p {
+        font-size: 2.5vh;
+    }
+    .separate .button {
+        font-size: 2vh;
     }
 }

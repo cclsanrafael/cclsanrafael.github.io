@@ -25,7 +25,7 @@
             </a>
         </div>
         <ul class="navbar">
-            <li class="nav-item"><a href="" class="nav-link">Cursos</a></li>
+            <li class="nav-item"><a href="#cursos" class="nav-link">Cursos</a></li>
             <li class="nav-item"><a href="" class="nav-link">Info</a></li>
             <li class="nav-item"><a href="" class="nav-link">Contactos</a></li>
         </ul>
@@ -39,9 +39,11 @@
         </span>
     </section>
 
+    <div class="separate">
+        <h3 class="title">Nuestros Cursos</h3>
+    </div>
 
-
-    <section class="cards-group">
+    <section class="cards-group" id="cursos">
         <div class="card" id="php">
             <div class="card-header">
                 <i class="fas fa-brands fa-php"></i>
@@ -72,7 +74,17 @@
             </div>
         </div>
 
-        <div class="card" id="linux">
+        <div class="card" id="node">
+            <div class="card-header">
+                <i class="fas fa-brands fa-node-js"></i>
+            </div>
+            <div class="card-body">
+                <p>Node</p>
+                <a href="#node">Inscribirme</a>
+            </div>
+        </div>
+
+        <div class="card cardhidden" id="linux">
             <div class="card-header">
                 <i class="fas fa-brands fa-linux"></i>
             </div>
@@ -81,7 +93,71 @@
                 <a href="#linux">Inscribirme</a>
             </div>
         </div>
+
+        <div class="card cardhidden" id="algoritmos">
+            <div class="card-header">
+                <i class="fa-solid fa-diagram-project"></i>
+            </div>
+            <div class="card-body">
+                <p>Algoritmos</p>
+                <a href="#algoritmos">Inscribirme</a>
+            </div>
+        </div>
+
+        <div class="card cardhidden" id="automatizacion">
+            <div class="card-header">
+                <i class="fa-solid fa-robot"></i>
+            </div>
+            <div class="card-body">
+                <p>Automatización</p>
+                <a href="#automatizacion">Inscribirme</a>
+            </div>
+        </div>
+
+        <div class="card cardhidden" id="github">
+            <div class="card-header">
+                <i class="fa-brands fa-git-alt"></i>
+            </div>
+            <div class="card-body">
+                <p>Git Hub</p>
+                <a href="#github">Inscribirme</a>
+            </div>
+        </div>
+
+        <div class="card cardhidden" id="api">
+            <div class="card-header">
+                <i class="fa-solid fa-cubes"></i>
+            </div>
+            <div class="card-body">
+                <p>Api rest</p>
+                <a href="#api">Inscribirme</a>
+            </div>
+        </div>
+
+        <div class="card cardhidden" id="celulares">
+            <div class="card-header">
+                <i class="fa-solid fa-mobile-screen"></i>
+            </div>
+            <div class="card-body">
+                <p>Reparación de celulares</p>
+                <a href="#celulares">Inscribirme</a>
+            </div>
+        </div>
+
+        <div class="card cardhidden" id="laptops">
+            <div class="card-header">
+                <i class="fa-solid fa-desktop"></i>
+            </div>
+            <div class="card-body">
+                <p>Reparación de laptops</p>
+                <a href="#laptops">Inscribirme</a>
+            </div>
+        </div>
     </section>
+
+    <div class="separate" id="buttonmore">
+        <a href="#" class="button">Más Cursos</a>
+    </div>
 
     <footer>
         <p>
@@ -93,8 +169,10 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/a5c1628c0a.js" crossorigin="anonymous"></script>
+    <script src="/js/helper.js"></script>
     <script src="/js/navbar.js"></script>
     <script src="/js/titile_animation.js"></script>
+    <script src="/js/more_button.js"></script>
 </body>
 
 </html>
