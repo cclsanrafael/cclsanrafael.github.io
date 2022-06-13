@@ -228,3 +228,15 @@
 #css .card-header:hover svg {
     color: #2091eb;
 }
+
+#ciberseguridad {
+    background-color: #61c7ff;
+}
+
+#ciberseguridad:hover {
+    background-color: #fff;
+}
+
+#ciberseguridad:hover svg {
+    color: #61c7ff;
+}
