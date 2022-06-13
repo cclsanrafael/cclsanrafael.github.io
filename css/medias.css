@@ -24,6 +24,10 @@
 }
 
 @media screen and (max-width: 700px){
+    .cartel {
+        width: 65vh;
+    }
+    
     nav {
         display: inline-block;
         padding: 0;
