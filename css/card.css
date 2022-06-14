@@ -252,3 +252,15 @@
 #excel .card-header:hover svg {
     color: #006b36;
 }
+
+#photoshop .card-header {
+    background-color:#0B2683;
+}
+
+#photoshop .card-header:hover {
+    background-color: #fff;
+}
+
+#photoshop .card-header:hover svg {
+    color: #03CAEA;
+}
