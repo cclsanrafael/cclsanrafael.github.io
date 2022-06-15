@@ -264,3 +264,14 @@
 #photoshop .card-header:hover svg {
     color: #03CAEA;
 }
+#computacion .card-header {
+    background-color:#0E63E7;
+}
+
+#computacion .card-header:hover {
+    background-color: #fff;
+}
+
+#computacion .card-header:hover svg {
+    color: #0E63E7;
+}
