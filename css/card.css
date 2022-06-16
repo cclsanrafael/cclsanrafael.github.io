@@ -169,18 +169,6 @@
     color: #f05134;
 }
 
-#api .card-header {
-    background-color: #025093;
-}
-
-#api .card-header:hover {
-    background-color: #fff;
-}
-
-#api .card-header:hover svg {
-    color: #025093;
-}
-
 #celulares .card-header {
     background-color: #507568;
 }
