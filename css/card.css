@@ -17,6 +17,7 @@
 }
 
 .card .card-header {
+    position: relative;
     display: flex;
     width: 100%;
     height: 250px;
@@ -26,6 +27,19 @@
     align-items: center;
     border: 0 solid transparent;
     border-radius: 10px 10px 0 0;
+}
+
+.card .card-header span {
+    font-family: monospace;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1vw;
+    background-color: white;
+    border: solid .3vh;
+    width: 100%;
+    padding: 0.5vh 0;
+    position: absolute;
+    bottom: 0;
 }
 
 .card svg, .card i {
@@ -75,6 +89,10 @@
 
 #php .card-header {
     background-color: #787cb4;
+}
+
+#php .card-header span {
+    border-color: #787cb4;
 }
 
 #php .card-header:hover {
@@ -135,6 +153,10 @@
 
 #algoritmos .card-header {
     background-color: rgb(59, 49, 125);
+}
+
+#algoritmos .card-header span {
+    border-color: rgb(59, 49, 125);
 }
 
 #algoritmos .card-header:hover {
